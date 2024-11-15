@@ -1,0 +1,15 @@
+{
+	"scripts": {
+		"watch": "npx tailwindcss -i tailwind.css  -o style.css --watch",
+		"prod": "npx tailwindcss -i tailwind.css  -o style.css",
+		"minify": "npx tailwindcss -i tailwind.css  -o style.css --minify"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.4.20",
+		"postcss": "^8.4.47",
+		"tailwindcss": "^3.4.12"
+	},
+	"dependencies": {
+		"@material-tailwind/html": "^2.3.2"
+	}
+}
